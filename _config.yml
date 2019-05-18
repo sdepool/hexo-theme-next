@@ -177,9 +177,9 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 
@@ -631,9 +631,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: 2WUpmvigo5M3l6EHmVE9OFOx-gzGzoHsz # your leancloud application appid
+  appkey: z0OysgGP6kQhqVvc0rTm60PI # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -992,7 +992,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # display on mobile or not
   color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
